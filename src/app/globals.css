@@ -1,0 +1,49 @@
+:root {
+  --main-color-pink: #ef5a6f;
+  --main-color-blue: #27baea;
+}
+
+html {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body {
+  height: 100%;
+}
+
+.bg-main-color-pink {
+  background-color: var(--main-color-pink);
+}
+
+.bg-main-color-blue {
+  background-color: var(--main-color-blue);
+}
+
+.text-main-color-pink {
+  color: var(--main-color-pink);
+}
+
+.text-main-color-blue {
+  color: var(--main-color-blue);
+}
+
+@media (min-width: 380px) {
+  body {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    width: 30%;
+  }
+}
