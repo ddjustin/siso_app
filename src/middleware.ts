@@ -7,7 +7,7 @@ export function middleware(request: NextRequest) {
   console.log("Main middleware running...");
 
   const mobileCheckResult = mobileDetectionMiddleware(request);
-  console.log("mobileCheckResult", mobileCheckResult);
+  console.log("mobileCheckResult", mobileCheckResult.redirected);
   if (mobileCheckResult?.redirected) {
     return mobileCheckResult;
   }
