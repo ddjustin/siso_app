@@ -1,12 +1,16 @@
 :root {
   --main-color-pink: #ef5a6f;
   --main-color-blue: #27baea;
+  --sub-color-gray: #909196;
+  --sub-color-black: #303437;
 }
 
 html {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
+  height: 100%;
 }
 
 body {
@@ -21,6 +25,10 @@ body {
   background-color: var(--main-color-blue);
 }
 
+.bg-sub-color-gray {
+  background-color: var(--sub-color-gray);
+}
+
 .text-main-color-pink {
   color: var(--main-color-pink);
 }
@@ -29,21 +37,13 @@ body {
   color: var(--main-color-blue);
 }
 
-@media (min-width: 380px) {
+.text-sub-color-gray {
+  color: var(--sub-color-gray);
+}
+
+@media (max-width: 375px) {
   body {
     width: 100%;
     height: 100%;
-  }
-}
-
-@media (min-width: 768px) {
-  body {
-    width: 50%;
-  }
-}
-
-@media (min-width: 1024px) {
-  body {
-    width: 30%;
   }
 }

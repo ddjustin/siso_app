@@ -13,12 +13,7 @@
 }
 
 .sloganText01 {
-  font-size: 28px;
-  font-weight: 700;
-}
-
-.sloganText02 {
-  font-size: 28px;
+  font-size: 36px;
   font-weight: 700;
 }
 
@@ -26,11 +21,14 @@
   margin-top: 224px;
 }
 
+.phoneEmpty {
+  margin-top: 264px;
+}
+
 @media (max-width: 375px) {
   .sloganTexts {
     margin-top: 104px;
   }
-
   .images {
     margin-top: 134px;
   }
@@ -38,5 +36,9 @@
   .image {
     width: 75px;
     height: 75px;
+  }
+
+  .phoneEmpty {
+    margin-top: 164px;
   }
 }

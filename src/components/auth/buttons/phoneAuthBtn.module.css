@@ -1,0 +1,24 @@
+.phoneBtnGroup {
+  display: flex;
+  flex-direction: row;
+}
+
+.phoneBtn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 312px;
+  height: 84px;
+  font-size: 32px;
+  font-weight: 600;
+  color: #ffffff;
+  border-radius: 10px;
+}
+
+@media (max-width: 375px) {
+  .phoneBtn {
+    font-size: 28px;
+    font-weight: 600;
+  }
+}
